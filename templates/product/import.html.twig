@@ -1,0 +1,9 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <h1>Import Products</h1>
+    {{ form_start(form, {'attr': {'enctype': 'multipart/form-data'}}) }}
+        {{ form_row(form.csv_file) }}
+        <button class="btn">Upload</button>
+    {{ form_end(form) }}
+{% endblock %}

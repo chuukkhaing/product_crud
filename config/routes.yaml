@@ -3,3 +3,12 @@ controllers:
         path: ../src/Controller/
         namespace: App\Controller
     type: attribute
+# config/routes.yaml or annotations
+product_export:
+    path: /product/export
+    controller: App\Controller\ProductController::export
+    methods: GET
+product_import:
+    path: /product/import
+    controller: App\Controller\ProductController::import
+    methods: [GET, POST]

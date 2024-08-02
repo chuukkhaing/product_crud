@@ -1,0 +1,30 @@
+/* public/css/styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.table {
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.table thead th {
+    background-color: #f8f9fa;
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+/* public/css/styles.css */
+
+@media (max-width: 768px) {
+    .navbar {
+        text-align: center;
+    }
+
+    .table {
+        font-size: 14px;
+    }
+}

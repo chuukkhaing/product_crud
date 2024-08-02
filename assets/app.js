@@ -1,4 +1,6 @@
-import './bootstrap.js';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap';
+import $ from 'jquery';
 /*
  * Welcome to your app's main JavaScript file!
  *
