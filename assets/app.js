@@ -1,6 +1,11 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap';
 import $ from 'jquery';
+
+import 'datatables.net-bs5/css/dataTables.bootstrap5.min.css';
+
+import 'datatables.net-bs5';
+
 /*
  * Welcome to your app's main JavaScript file!
  *
